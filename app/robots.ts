@@ -1,2 +1,2 @@
 import type { MetadataRoute } from 'next';
-export default function robots(): MetadataRoute.Robots { return { rules:{ userAgent:'*', allow:'/' }, sitemap:'https://www.mekvera.com/sitemap.xml', host:'https://www.mekvera.com' }; }
+export default function robots(): MetadataRoute.Robots { return { rules:{userAgent:'*',allow:'/'}, sitemap:'https://mekvera.com/sitemap.xml', host:'https://mekvera.com' }; }

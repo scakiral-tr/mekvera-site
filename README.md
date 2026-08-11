@@ -1,17 +1,29 @@
-# MEKVERA Website — V2
+# MEKVERA Website — V4
 
-MEKVERA için premium proje / tasarım / renovasyon / anahtar teslim uygulama web sitesi.
+MEKVERA **PROJE • TASARIM • UYGULAMA** markasının Next.js App Router + TypeScript web sitesi.
 
-## V2 ile eklenenler
-- Premium ana sayfa görsel dili
-- Güçlü hero ve güven mesajları
-- Yeni proje vitrini
-- 6 ayrı SEO hizmet sayfası
-- Geliştirilmiş çalışma süreci
-- Mobil uyumlu yeni bileşenler
-- Güncellenmiş sitemap
+## V4 yenilikleri
+- Yeni, daha sade ve akılda kalıcı **M/V monogramı**
+- Ana domain: `https://mekvera.com`
+- `Organization` structured data
+- Gerçek iletişim bilgileri
+- Telefon ve WhatsApp hızlı iletişim butonları
+- Çalışan "Projenizi Anlatın" formu
+- Form taleplerinin Resend üzerinden `info@mekvera.com` adresine gönderilmesi
+- Form doğrulama ve kullanıcı başarı/hata mesajları
+- robots.txt / sitemap / canonical alan adı güncellemesi
 
-## Önemli
-- Proje alanlarında şu an tasarım amaçlı soyut placeholder görseller vardır. Yayın öncesinde gerçek MEKVERA proje fotoğraflarıyla değiştirilecektir.
-- `mekvera.com` şimdilik örnek domain olarak kodda yer almaktadır. Gerçek domain alındığında metadata, sitemap ve robots güncellenecektir.
-- İletişim formu henüz backend/e-posta sistemine bağlı değildir.
+## Vercel gereksinimi
+Vercel projesinde aşağıdaki environment variable bulunmalı:
+
+`RESEND_API_KEY`
+
+Resend Vercel entegrasyonu kurulduysa bu değer otomatik eklenmiş olabilir. Form deploy sonrasında test edilmelidir.
+
+## Form e-posta akışı
+`mekvera.com/iletisim` → `/api/proje-talebi` → Resend → `info@mekvera.com`
+
+Gönderici: `MEKVERA Proje Talebi <form@mekvera.com>`
+
+## Not
+Gerçek proje görselleri ve doğrulanabilir referanslar sonraki sürümlerde eklenecektir. Sitede uydurma proje, müşteri, yıl veya metrekare istatistiği kullanılmamalıdır.

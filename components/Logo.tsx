@@ -1,9 +1,12 @@
 export function Logo({ compact = false }: { compact?: boolean }) {
   return (
     <div className="brand" aria-label="MEKVERA Proje Tasarım Uygulama">
-      <svg className="brand-mark" viewBox="0 0 80 80" role="img" aria-hidden="true">
-        <path d="M12 65V28l18 17V20l13 12V8l25 19v38" fill="none" stroke="currentColor" strokeWidth="5" strokeLinecap="square" strokeLinejoin="miter"/>
-        <path d="M30 65V45M43 65V32M56 65V42" fill="none" stroke="currentColor" strokeWidth="5"/>
+      <svg className="brand-mark brand-mark-v4" viewBox="0 0 64 64" role="img" aria-hidden="true">
+        <path
+          fill="currentColor"
+          fillRule="evenodd"
+          d="M7 55V10l25 23 25-23v45H46V35L32 49 18 35v20H7Zm18-2 7-7 7 7H25Z"
+        />
       </svg>
       {!compact && <div><div className="brand-name">MEKVERA</div><div className="brand-sub">PROJE • TASARIM • UYGULAMA</div></div>}
     </div>

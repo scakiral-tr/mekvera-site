@@ -27,7 +27,7 @@ export default function Home(){
         <div className="hero-copy">
           <div className="eyebrow">PROJE • TASARIM • UYGULAMA</div>
           <h1>Mekânı<br/>yenilemiyoruz.<br/><span>Dönüştürüyoruz.</span></h1>
-          <p>Ofis, otel, hastane, mağaza, düğün salonu, villa ve konut projelerinde; konsept tasarımdan anahtar teslim uygulamaya kadar tüm süreci tek ekip altında yönetiyoruz.</p>
+          <p>Ofis, otel, hastane, mağaza, düğün salonu, villa ve konut projelerinde; uzman proje ekibimizle konsept tasarımdan anahtar teslim uygulamaya kadar tüm süreci tek sorumluluk altında yönetiyoruz.</p>
           <div className="hero-actions">
             <Link className="btn btn-gold" href="/projeler">Projeleri İncele</Link>
             <Link className="btn btn-outline" href="/iletisim#proje-formu">Projenizi Konuşalım</Link>
