@@ -1,32 +1,17 @@
-# MEKVERA Website — İlk Çalışan Sürüm
+# MEKVERA Website — V2
 
-Premium mimarlık / renovasyon / anahtar teslim uygulama sitesi için Next.js App Router + TypeScript başlangıç projesi.
+MEKVERA için premium mimarlık / renovasyon / anahtar teslim uygulama web sitesi.
 
-## Çalıştırma
+## V2 ile eklenenler
+- Premium ana sayfa görsel dili
+- Güçlü hero ve güven mesajları
+- Yeni proje vitrini
+- 6 ayrı SEO hizmet sayfası
+- Geliştirilmiş çalışma süreci
+- Mobil uyumlu yeni bileşenler
+- Güncellenmiş sitemap
 
-```bash
-npm install
-npm run dev
-```
-
-Tarayıcıda `http://localhost:3000` açın.
-
-## Bu sürümde hazır
-- Ana sayfa
-- Responsive mobil düzen
-- Kurumsal, Hizmetler, Projeler, Blog ve İletişim sayfaları
-- Marka renkleri ve temel MEKVERA SVG logosu
-- SEO metadata altyapısı
-- `sitemap.xml` ve `robots.txt`
-- Proje talep formu arayüzü
-
-## Sonraki aşama
-- Gerçek MEKVERA logo dosyasının vektör olarak uygulanması
-- Gerçek proje fotoğrafları ve vaka çalışmaları
-- Form backend / e-posta / CRM entegrasyonu
-- Yönetim paneli
-- Google Analytics + Search Console
-- Organization / LocalBusiness schema
-- Alan adı doğrulandıktan sonra canonical ve URL ayarlarının kesinleştirilmesi
-
-> Not: `mekvera.com` bu prototipte örnek alan adı olarak kullanılmıştır. Satın alma / marka tescili uygunluğu ayrıca kontrol edilmelidir.
+## Önemli
+- Proje alanlarında şu an tasarım amaçlı soyut placeholder görseller vardır. Yayın öncesinde gerçek MEKVERA proje fotoğraflarıyla değiştirilecektir.
+- `mekvera.com` şimdilik örnek domain olarak kodda yer almaktadır. Gerçek domain alındığında metadata, sitemap ve robots güncellenecektir.
+- İletişim formu henüz backend/e-posta sistemine bağlı değildir.
