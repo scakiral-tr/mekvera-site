@@ -1,6 +1,6 @@
 # MEKVERA Website — V2
 
-MEKVERA için premium mimarlık / renovasyon / anahtar teslim uygulama web sitesi.
+MEKVERA için premium proje / tasarım / renovasyon / anahtar teslim uygulama web sitesi.
 
 ## V2 ile eklenenler
 - Premium ana sayfa görsel dili

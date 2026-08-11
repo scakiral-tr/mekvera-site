@@ -5,7 +5,7 @@ import { Footer } from '../components/Footer';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.mekvera.com'),
-  title: { default: 'MEKVERA | Mimarlık, Tasarım ve Anahtar Teslim Uygulama', template: '%s | MEKVERA' },
+  title: { default: 'MEKVERA | Proje, Tasarım ve Anahtar Teslim Uygulama', template: '%s | MEKVERA' },
   description: 'Ofis, otel, hastane, mağaza, düğün salonu, villa ve konut projelerinde konsept tasarım, renovasyon ve anahtar teslim uygulama.',
   openGraph: { title: 'MEKVERA', description: 'Tasarlıyoruz. Uyguluyoruz. Dönüştürüyoruz.', type: 'website', locale: 'tr_TR' }
 };

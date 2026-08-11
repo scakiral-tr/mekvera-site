@@ -25,7 +25,7 @@ export default function Home(){
       <div className="hero-architecture" aria-hidden="true"><i/><i/><i/><i/></div>
       <div className="shell hero-v2-inner">
         <div className="hero-copy">
-          <div className="eyebrow">MİMARLIK • TASARIM • UYGULAMA</div>
+          <div className="eyebrow">PROJE • TASARIM • UYGULAMA</div>
           <h1>Mekânı<br/>yenilemiyoruz.<br/><span>Dönüştürüyoruz.</span></h1>
           <p>Ofis, otel, hastane, mağaza, düğün salonu, villa ve konut projelerinde; konsept tasarımdan anahtar teslim uygulamaya kadar tüm süreci tek ekip altında yönetiyoruz.</p>
           <div className="hero-actions">
