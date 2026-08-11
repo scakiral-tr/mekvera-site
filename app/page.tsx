@@ -1,4 +1,5 @@
 import Image from "next/image";
+import AIProjectAssistant from "../components/AIProjectAssistant";
 
 const whatsappUrl =
   "https://wa.me/905303339929?text=Merhaba%2C%20MEKVERA%27dan%20proje%20%2F%20tasar%C4%B1m%20%2F%20uygulama%20hizmeti%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.";
@@ -78,10 +79,11 @@ export default function Home() {
           <a href="#uygulamalar">Uygulamalar</a>
           <a href="#hizmetler">Hizmetlerimiz</a>
           <a href="#surec">Süreç</a>
+          <a href="#proje-asistani">AI Ön Proje</a>
           <a href="#iletisim">İletişim</a>
         </nav>
 
-        <a className="top-cta" href="#iletisim">
+        <a className="top-cta" href="#proje-asistani">
           Projenizi Anlatın <span>↗</span>
         </a>
 
@@ -97,6 +99,7 @@ export default function Home() {
             <a href="#uygulamalar">Uygulamalar</a>
             <a href="#hizmetler">Hizmetlerimiz</a>
             <a href="#surec">Süreç</a>
+            <a href="#proje-asistani">AI Ön Proje</a>
             <a href="#iletisim">İletişim</a>
           </nav>
         </details>
@@ -123,7 +126,7 @@ export default function Home() {
             anahtar teslim sonuca taşıyoruz.
           </p>
           <div className="hero-actions">
-            <a className="btn gold" href="#iletisim">
+            <a className="btn gold" href="#proje-asistani">
               Projenizi Anlatın <span>→</span>
             </a>
             <a className="btn ghost" href="#uygulamalar">
@@ -213,8 +216,8 @@ export default function Home() {
                 <small>{String(index + 1).padStart(2, "0")}</small>
                 <h3>{area.title}</h3>
                 <p>{area.desc}</p>
-                <a href="#iletisim">
-                  Projenizi Konuşalım <span>↗</span>
+                <a href="#proje-asistani">
+                  AI Ön Proje Oluştur <span>↗</span>
                 </a>
               </div>
             </article>
@@ -276,6 +279,8 @@ export default function Home() {
         </div>
       </section>
 
+      <AIProjectAssistant />
+
       <section id="iletisim" className="cta">
         <div>
           <p className="eyebrow">BİR PROJE BAŞLATIN</p>
@@ -288,11 +293,14 @@ export default function Home() {
 
         <div className="cta-content">
           <p>
-            Proje türünü, yaklaşık metrekareyi ve hedef tarihinizi paylaşın. Ekibimiz ihtiyacınızı
-            değerlendirerek doğru çalışma kapsamını birlikte netleştirsin.
+            AI Ön Proje Asistanı ile ilk briefinizi oluşturabilir veya doğrudan ekibimize ulaşabilirsiniz.
+            Kesin kapsam, keşif ve teknik değerlendirme sonrasında MEKVERA ekibiyle netleşir.
           </p>
           <div className="cta-actions">
-            <a className="btn gold" href="mailto:info@mekvera.com?subject=MEKVERA%20Proje%20Talebi">
+            <a className="btn gold" href="#proje-asistani">
+              AI Ön Proje Oluştur <span>↗</span>
+            </a>
+            <a className="btn ghost" href="mailto:info@mekvera.com?subject=MEKVERA%20Proje%20Talebi">
               E-posta ile Anlatın <span>↗</span>
             </a>
             <a className="btn whatsapp-btn" href={whatsappUrl} target="_blank" rel="noopener noreferrer">
@@ -321,6 +329,7 @@ export default function Home() {
           <a href="#uygulamalar">Uygulamalar</a>
           <a href="#hizmetler">Hizmetlerimiz</a>
           <a href="#surec">Süreç</a>
+          <a href="#proje-asistani">AI Ön Proje</a>
         </div>
 
         <div className="footer-column">
@@ -333,7 +342,7 @@ export default function Home() {
         </div>
 
         <div className="footer-end">
-          <a className="btn footer-cta" href="#iletisim">
+          <a className="btn footer-cta" href="#proje-asistani">
             Projenizi Anlatın <span>↗</span>
           </a>
           <small>© 2026 MEKVERA. Tüm hakları saklıdır.</small>

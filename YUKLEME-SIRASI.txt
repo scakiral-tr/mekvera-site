@@ -1,0 +1,46 @@
+MEKVERA V5.2 AI — YÜKLEME SIRASI
+
+1) GitHub / app klasörüne yükle:
+   page.tsx
+   globals.css
+   layout.tsx
+   sitemap.ts
+   robots.ts
+
+2) GitHub / components klasörüne yükle:
+   AIProjectAssistant.tsx
+
+3) GitHub / app / api içine `proje-ai` klasörü oluştur ve içine yükle:
+   route.ts  (pakette app/api/proje-ai/route.ts)
+
+4) GitHub / app / api / proje-talebi klasöründeki route.ts dosyasını pakettekiyle değiştir.
+
+5) Aşağıdaki mevcut klasörlerde page.tsx dosyalarını paketteki sürümlerle değiştir:
+   app/projeler/page.tsx
+   app/kurumsal/page.tsx
+   app/hizmetler/page.tsx
+   app/iletisim/page.tsx
+   app/blog/page.tsx
+   Ayrıca app/blog/layout.tsx yükle.
+
+6) Repo ana dizinindeki package.json dosyasını pakettekiyle değiştir.
+
+7) Commit mesajı önerisi:
+   MEKVERA V5.2 AI on proje asistani
+
+8) Vercel > Project > Settings > Environment Variables:
+   OPENAI_API_KEY = gerçek OpenAI API anahtarınız
+   (İsterseniz OPENAI_MODEL = gpt-5-mini)
+
+9) Vercel'de Redeploy.
+
+10) Canlı test:
+   - mekvera.com aç
+   - Projenizi Anlatın / AI Ön Proje alanına git
+   - Proje türü seç
+   - En az 40 karakter açıklama yaz
+   - AI Ön Proje Analizi Oluştur'a bas
+   - Sonuç gelince WhatsApp paylaşımını test et
+
+KRİTİK:
+Gerçek OPENAI_API_KEY anahtarını hiçbir dosyaya yazmayın ve GitHub'a yüklemeyin.

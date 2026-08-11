@@ -1,3 +1,5 @@
-import type { Metadata } from 'next';
-export const metadata: Metadata = { title:'Kurumsal', description:'MEKVERA proje, tasarım ve uygulama yaklaşımı.' };
-export default function Page(){return <><section className="page-hero"><div className="shell"><span className="eyebrow">MEKVERA</span><h1>Doğru mekân.<br/>Gerçek değer.</h1><p>MEKVERA ismini “mekân” ve “vera” fikrinden alan; tasarım ile uygulama arasındaki kopukluğu azaltmayı hedefleyen bir proje, tasarım ve uygulama markası olarak konumlandırıyoruz.</p></div></section><section className="content-section"><div className="shell content-grid"><div className="info-card"><h2>Yaklaşımımız</h2><p>Estetik kararları işlev, uygulanabilirlik, bütçe ve teslim süresiyle birlikte ele almak. Müşterinin tek noktadan yönetebildiği daha kontrollü bir proje süreci oluşturmak.</p></div><div className="info-card"><h2>Çalışma Prensibimiz</h2><p>Keşif ve ihtiyaç analizinden başlayarak konsept, teknik proje, bütçe, üretim, saha koordinasyonu, kalite kontrol ve teslim aşamalarını aynı proje disiplini içinde yönetmek.</p></div></div></section></>}
+import { redirect } from "next/navigation";
+
+export default function CorporateRedirect() {
+  redirect("/#hakkimizda");
+}
