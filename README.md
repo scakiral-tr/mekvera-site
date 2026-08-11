@@ -1,29 +1,18 @@
-# MEKVERA Website — V4
+# MEKVERA V5 — yüklemeye hazır paket
 
-MEKVERA **PROJE • TASARIM • UYGULAMA** markasının Next.js App Router + TypeScript web sitesi.
+Bu klasör Vercel/Next.js için doğrudan proje olarak hazırlanmıştır.
 
-## V4 yenilikleri
-- Yeni, daha sade ve akılda kalıcı **M/V monogramı**
-- Ana domain: `https://mekvera.com`
-- `Organization` structured data
-- Gerçek iletişim bilgileri
-- Telefon ve WhatsApp hızlı iletişim butonları
-- Çalışan "Projenizi Anlatın" formu
-- Form taleplerinin Resend üzerinden `info@mekvera.com` adresine gönderilmesi
-- Form doğrulama ve kullanıcı başarı/hata mesajları
-- robots.txt / sitemap / canonical alan adı güncellemesi
+## İçerik
+- Banko arkasında MEKVERA yazısı bulunmayan yeni hero görseli
+- Ofis, İş Yeri, Mağaza, Düğün Salonu, Villa & Konut, Fuar Standı kategori görselleri
+- Görsellerin tamamı `public/images/` içinde ve kodda bağlı
+- Responsive ana sayfa
+- Proje / Tasarım / Uygulama hizmet alanları
+- Gerçek proje fotoğrafları gelene kadar portföy bölümünde açık placeholder kullanımı
 
-## Vercel gereksinimi
-Vercel projesinde aşağıdaki environment variable bulunmalı:
-
-`RESEND_API_KEY`
-
-Resend Vercel entegrasyonu kurulduysa bu değer otomatik eklenmiş olabilir. Form deploy sonrasında test edilmelidir.
-
-## Form e-posta akışı
-`mekvera.com/iletisim` → `/api/proje-talebi` → Resend → `info@mekvera.com`
-
-Gönderici: `MEKVERA Proje Talebi <form@mekvera.com>`
+## GitHub'a yükleme
+Mevcut repoda `app`, `public`, `package.json`, `tsconfig.json`, `next-env.d.ts`, `next.config.mjs` dosyalarını bu paketle değiştirin. Ardından commit edin. Vercel GitHub deposuna bağlıysa yeni commit deployment başlatır.
 
 ## Not
-Gerçek proje görselleri ve doğrulanabilir referanslar sonraki sürümlerde eklenecektir. Sitede uydurma proje, müşteri, yıl veya metrekare istatistiği kullanılmamalıdır.
+`app/page.tsx` içindeki `mailto:info@mekvera.com` satırını, kullanılacak kesin MEKVERA iletişim adresi farklıysa yayına almadan önce güncelleyin.
+Kategori görselleri temsili görsellerdir ve kartların üzerinde bu açıkça belirtilmiştir.
